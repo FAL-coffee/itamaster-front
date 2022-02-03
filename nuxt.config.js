@@ -1,7 +1,7 @@
 import colors from "vuetify/es5/util/colors";
 import { resolve } from "path";
 require("dotenv").config();
-const { API_KEY } = process.env;
+const { VUE_APP_STRIPE_API_KEY, VUE_APP_URL, VUE_APP_GTAG_VALUE } = process.env;
 
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
@@ -12,7 +12,9 @@ export default {
     hints: false,
   },
   env: {
-    API_KEY,
+    VUE_APP_STRIPE_API_KEY,
+    VUE_APP_URL,
+    VUE_APP_GTAG_VALUE,
   },
   generate: {
     fallback: true,
