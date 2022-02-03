@@ -1,0 +1,839 @@
+{
+    "general":{
+        "confirm":"confirm",
+        "ok":"ok",
+        "close":"close",
+        "exit":"exit",
+        "save":"save",
+        "continue":"continue",
+        "cancel":"cancel",
+        "delete":"delete",
+        "registar":"registar",
+        "export":"export",
+        "terminate_procedure":"cancellation procedure",
+        "terminate":"an end of a contract",
+
+        "test":"Test",
+        "team":"Team",
+        "project":"Project",
+        "testsuite":"Test Suite",
+        "testcase":"Test Case",
+
+        "admin":"Admin",
+        "writers":"Writers",
+        "member":"Member",
+        "tester":"Tester",
+        "creator":"Creator",
+        "lasteditor":"Last Editor",
+        "status":"Status",
+
+        "to_payment":"有料オプション管理",
+        "profile":"Profile",
+        "profile_card":"PROFILE CARD",
+        "profile_edit":"PROFILE EDIT",
+        "password":"password",
+        "email":"E-mails",
+        "title":"Title",
+        "name":"Name",
+        "message":"Messages",
+        "contents":"Contents",
+        "remarks":"Remarks",
+        "reason":"Reason",
+        "memo":"Memo",
+        "options":"Options",
+        "seacret_word":"Seacret Word",
+        "file_name":"File Name",
+
+        "signin":"SIGN IN",
+        "signup":"SIGN UP",
+        "signout":"SIGN OUT",
+        "demo":"START DEMO",
+
+        "notRunning":"NotRunning",
+        "complete":"Complete",
+        "retest":"Retest",
+        "issue":"Issue",
+
+        "details":"Details",
+        "prerequisites":"Prerequisites",
+        "process":"Process",
+        "expect":"Expect",
+        "importance":"Importance Level",
+
+        "steps":"Number of execution steps",
+
+        "system_name":"System Name",
+        "sub_system_name":"Sub System Name",
+        "leader":"Leader",
+        "team_name":"Team Name",
+        "begin_date":"Begin Date",
+        "end_date":"End Date",
+
+        "enter_agein_for_confirmation":"Please enter again for confirmation.",
+        "to_project_page":"Project Page",
+
+        "how_many_number":"",
+
+        "input_alert_msg":{
+            "required":"This is required",
+            "less_than_3":"This must be less than 3 characters",
+            "less_than_20":"This must be less than 20 characters",
+            "less_than_30":"This must be less than 30 characters",
+            "less_than_40":"This must be less than 40 characters",
+            "less_than_50":"This must be less than 50 characters",
+            "less_than_60":"This must be less than 60 characters",
+            "less_than_80":"This must be less than 80 characters",
+            "less_than_300":"This must be less than 300 characters",
+            "email_format":"Please fill in the correct email address format.",
+            "more_than_6":"Please enter at least 6 alphanumeric characters.",
+            "password_has_not_been_entered":"Please enter the same password.",
+            "half_size_number_only":"Please enter only half-width numbers."
+        }
+    },
+    "molecules":{
+        "common":{
+            "not_latest_data_bar":{
+                "data_reload_confirmation_message":"It may be out of sync with the latest data on the server. Do you want to communicate with the server and update the information?"
+            },
+            "loading_progress_circle":{
+                "loading":"now loading..."
+            }
+        },
+        "msg":{
+            "alert_message":{
+                "error_message":{
+                    "msg_title":"Error Message"
+                },
+                "exception_message":{
+                    "msg_title":"Exception Message",
+                    "cause_unknown_communication_error":"An unexplained communication error has occurred.",
+                    "please_agein_signin":"We apologize for any inconvenience, but if you continue to receive this error, please click the button below and sign in again."
+                }
+            },
+            "cannot_project_deleted_message":{
+                "conditions_that_can_be_deleted":"You can delete a project in the following cases",
+                "conditions_no_testsuite":"If the test suite is not registered.",
+                "conditions_all_complete":"If all tests are complete."
+            },
+            "completion_conf_message":{
+                "test_completion_conf":"Do you want to complete the test?"
+            },
+            "contact_success_message":{
+                "thank_you":"Thank you for using Itamaster!",
+                "send_the_contact":"Send the content to the operator.",
+                "questions_support":"If you have any questions, we will send the answer to the attached email address as soon as possible.",
+                "message_and_request_support":"Messages and requests will be useful for future operations.",
+                "improved_commitment":"The system will be improved to make it easier for users to use and to have a great experience.",
+                "best_regards_from_now_on":"Thank you very much. We look forward to your continued support of Itamaster."
+            },
+            "delete_conf_message":{
+                "delete_conf":"Do you really want to delete this?",
+                "unrecoverable":"Unrecoverable"
+            },
+            "lock_conf_message":{},
+            "member_kickout_mesage":{
+                "kickout_conf":"Would you like to get the user out of the team?",
+                "cannot_see_information":"The kicked user will not have access to team project and team member information."
+            },
+            "sign_out_conf_message":{
+                "sign_out_conf":"Do you want to sign out?",
+                "unsaved_data_discarded":"Unsaved data will be discarded."
+            },
+            "sorting_mode_move_message":{
+                "move_sort_mode":"Move to sort mode",
+                "move_sort_mode_conf":"Would you like to move the test case table to sort mode?",
+                "dragging_and_dropping_can_change_sort_order":"In sort mode, you can easily change the sort order by dragging and dropping.",
+                "yet_implemented":"I'm sorry....... This menu has not been implemented yet.",
+                "hurry_implemented":"I'm in a hurry to implement　:_("
+            },
+            "team_exit_conf_message":{
+                "team_exit_conf":"Are you leaving the team?"
+            },
+            "unlock_conf_message":{},
+            "cancellation_conf_message":{
+                "cancellation_conf":"Are you sure you want to cancel your \"Itamaster Subscription Plan\"?",
+                "valid_until_deadline":"Paid membership options are not immediately unavailable and will be unavailable after the end of the paid period."
+            },
+            "only_paid_member_available_message":{
+                "team_create_is_only_paid_member_available":"Teams can only be created by paid members.",
+                "from_the_link_on_header":"You can create a team by registering as a paid member from the link provided in the dropdown on the upper right of the header."
+            }
+        },
+        "payment":{
+            "plan_card":{
+                "price":"Price",
+                "payment_unit":"JPY",
+                "month":"Month",
+                "type":"Type",
+                "subscription":"Subscription",
+                "sold_out":"Sold out",
+                "trial_period":"Trial period",
+                "days":"Days"
+            },
+            "stripe_element":{
+                "generate_token":"Buy",
+                "already_paid_alert":"The user has already joined the subscription plan. Duplicate purchases are not possible.",
+                "already_subscription_terminate":"The cancellation procedure has been completed. The next contract will not be renewed."
+            }
+        },
+        "project":{},
+        "team":{},
+        "testcase":{},
+        "testsuite":{
+            "steps_input":{
+                "label":"Input Number Of Steps"
+            }
+        },
+        "user":{}
+    },
+    "organisms":{
+        "common":{
+            "bar":{
+                "app_footer":{
+                    "home":"home",
+                    "top":"top",
+                    "contact":"contact",
+                    "privacy":"privacy",
+                    "terms":"terms of service",
+                    "specified_commodity_transaction_law_notation":"Notation based on the Specified Commodity Transaction Law"
+                },
+                "app_header":{
+                    "data_all_reload":"Get all information and move to HOME",
+                    "language":"language",
+                    "english":"English",
+                    "japanese":"日本語",
+                    "bell_menu":{
+                        "option":{
+                            "invitation":{
+                                "inviting_for_you":"️️is inviting you!!",
+                                "test_together":"Join the team and test together!"
+                            },
+                            "modal":{
+                                "invitation_join_modal":{
+                                    "modal_name":"Join the team",
+                                    "please_enter_secret_word":"Please enter the secret word."
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "contact_form":{
+                "contact_form":"Contact Form",
+                "contact_type":"Contact Type",
+                "question":"Question",
+                "request":"Request",
+                "message":"Message",
+                "bug_report":"Bug Report",
+                "select_contact_type":"Please select the Contact type."
+            },
+            "privacy_policy":{
+                "accept_modal":{
+                    "modal_title":"Privacy Policy",
+                    "please_accept":"Do you accept?"
+                },
+                "privacy_policy_card":{
+                    "title":"Privacy Policy",
+                    "preamble":"Itamaster has established the following privacy policy regarding the handling of user's personal information in the service provided on this website (hereinafter referred to as \"this service\"). Hereinafter referred to as \"this policy\".",
+                    "contents":[
+                        [
+                            "1 Personal information",
+                            "\"Personal information\" is \"personal information\" stipulated in the Personal Information Protection Law, and refers to information that can identify an individual by explanation."
+                        ],
+                        [
+                            "2 How to collect personal information",
+                            "We may ask for personal information such as name, date of birth, address, telephone number, email address, bank account number, credit card number, driver's license number, etc. when the user registers for use.In addition, information related to transaction records and payments made between users and business partners, including personal information of users, includes our business partners (information providers, advertisers, advertisement distribution destinations, etc.) It may be collected from \"partners\")."
+                        ],
+                        [
+                            "3 Purpose of collecting and using personal information",
+                            "The purposes for which we collect and use personal information are as follows.",
+                            [
+                                "For the provision and operation of our services",
+                                "To answer inquiries from users (including verification of identity)",
+                                "To send e-mails about new features, updates, campaigns, etc. of the service you are using and other services provided by Itamaster",
+                                "For maintenance, important notices, etc. to contact you as needed",
+                                "To identify users who violate the terms of use or who intend to use the service for fraudulent or unreasonable purposes, and refuse to use the service",
+                                "To allow users to view, change, delete, and view usage status of their own registration information",
+                                "To charge users a usage fee for paid services",
+                                "Purpose incidental to the above purpose of use"
+                            ]
+                        ],
+                        [
+                            "4 Change of purpose of use",
+                            [
+                                "The Company shall change the purpose of use of personal information only when it is reasonably recognized that the purpose of use is related to that before the change.",
+                                "If the purpose of use is changed, the changed purpose shall be notified to the user or announced on this website by the method prescribed by the Company."
+                            ]
+                        ],
+                        [
+                            "5 Provision of personal information to a third party",
+                            [
+                                [
+                                    "We will not provide personal information to a third party without the prior consent of the user, except in the following cases. However, this does not apply when permitted by the Personal Information Protection Law and other laws and regulations.",
+                                    "When it is necessary to protect the life, body or property of a person and it is difficult to obtain the consent of the person",
+                                    "When it is particularly necessary to improve public health or promote the sound development of children, and it is difficult to obtain the consent of the person",
+                                    "When it is necessary for a national institution or a local public body or a person entrusted with it to cooperate in carrying out the affairs stipulated by laws and regulations, obtaining the consent of the person will hinder the performance of the affairs. When there is a risk of exerting",
+                                    [
+                                        "When the following matters are announced or announced in advance and the Company notifies the Personal Information Protection Commission",
+                                        "Include provision to third parties in the purpose of use",
+                                        "Items of data provided to third parties",
+                                        "Means or method of provision to a third party",
+                                        "Stop providing personal information to third parties at the request of the person",
+                                        "How to accept the request of the person"
+                                    ],
+                                    [
+                                        "Notwithstanding the provisions of the preceding paragraph, in the following cases, the information is provided to a third party",
+                                        "When we outsource all or part of the handling of personal information to the extent necessary to achieve the purpose of use",
+                                        "When personal information is provided due to business succession due to merger or other reasons",
+                                        "When personal information is used jointly with a specific person, the fact, the items of personal information used jointly, the range of people who jointly use it, the purpose of use of the person who uses it, and When the name or name of the person responsible for the management of the personal information is notified to the person in advance or placed in a state where the person can easily know."
+                                    ]
+                                ]
+                            ]
+                        ],
+                        [
+                            "6 Disclosure of personal information",
+                            [
+                                [
+                                    "When requested by the person to disclose personal information, we will disclose it to the person without delay. However, if the disclosure falls under any of the following, we may not disclose all or part of it, and if we decide not to disclose it, we will notify you to that effect without delay. A fee of 1,000 yen will be charged for each disclosure of personal information",
+                                    "When there is a risk of harming the life, body, property or other rights and interests of the person or a third party",
+                                    "When there is a risk of significant hindrance to the proper implementation of our business",
+                                    "When it violates other laws and regulations"
+                                ],
+                                "Notwithstanding the provisions of the preceding paragraph, in principle, we will not disclose information other than personal information such as history information and characteristic information"
+                            ]
+                        ],
+                        [
+                            "7 Correction and deletion of personal information",
+                            [
+                                "If the user's personal information held by the Company is incorrect, the user shall correct, add or delete the personal information to the Company according to the procedure established by the Company (hereinafter referred to as \"correction, etc.\") Can be charged.",
+                                "If we receive the request set forth in the preceding paragraph from the user and determine that it is necessary to respond to the request, we shall correct the personal information, etc. without delay.",
+                                "The Company will notify the user without delay when it makes corrections, etc. based on the provisions of the preceding paragraph, or when it decides not to make corrections, etc."
+                            ]
+                        ],
+                        [
+                            "8 Suspension of use of personal information, etc.",
+                            [
+                                "We will suspend or delete the use of personal information of the person because the personal information has been handled beyond the scope of the purpose of use or acquired by improper means (hereinafter referred to as \"use\"). If you are asked to stop, we will carry out the necessary investigation without delay.",
+                                [
+                                    "If we determine that it is necessary to respond to the request based on the survey results in the preceding paragraph, we will suspend the use of the personal information without delay.",
+                                    "If we suspend the use, etc. based on the provisions of the preceding paragraph, or if we decide not to suspend the use, we will notify the user without delay.",
+                                    "Notwithstanding the preceding two paragraphs, if there is a large amount of cost for suspension of use, etc., or if it is difficult to suspend the use, etc., necessary alternative measures can be taken to protect the rights and interests of the user. If so, this alternative shall be taken."
+                                ]
+                            ]
+                        ],
+                        [
+                            "9 Privacy policy changes",
+                            [
+                                "The contents of this policy may be changed without notifying the user, except for laws and regulations and other matters specified otherwise in this policy.",
+                                "Unless otherwise specified by the Company, the changed privacy policy shall take effect from the time it is posted on this website."
+                            ]
+                        ],
+                        [
+                            "10 The information desk",
+                            "For inquiries regarding this policy, please contact the following.\nEmail：　itamaster.official@gmail.com"
+                        ]
+                    ]    
+                }
+            },
+            "terms_of_service":{
+                "title":"Terms Of Service",
+                "preamble":"This agreement applies when you use \"Itamaster\" (hereinafter referred to as \"this service\") provided by Itamaster . Please read this agreement and agree to the contents before using.",
+                "contents":[
+                    [
+                        "1 Application of the rules",
+                        [
+                            "This agreement stipulates the terms and conditions for the user to receive the provision of this service when the Company provides this service.",
+                            "Regarding the provision of this service, in addition to this agreement, we may establish individual agreements and other guidelines regarding the use of this service. In this case, the individual agreement and other guidelines shall be applied to the use of this service by the user as part of this agreement.",
+                            "When the user uses this service, it is considered that the user has agreed to this agreement.",
+                            "If the user is a minor, the user must obtain the consent of a legal representative such as a parent or guardian regarding the use of this service. The Company considers that the use of this service by minor users has been carried out with the consent of a legal representative such as a parent or guardian."
+                        ]
+                    ],
+                    [
+                        "2 Registration",
+                        [
+                            "The user can register for use by registering the necessary items by the method specified by the Company.",
+                            "The user must notify us of accurate and up-to-date information regarding the registered items.",
+                            "If there is a change in the registered contents, the user shall promptly notify the Company of the changed contents.",
+                            "The Company shall not be liable for any damage or disadvantage caused to the user due to the registered contents being inaccurate or false, or the changed contents not being notified."    
+                        ]
+                    ],
+                    [
+                        "3 ID and password management",
+                        [
+                            "When the user registers for use, we will issue an ID and password.",
+                            "The user shall strictly manage and store the ID and password, and shall not allow a third party to use it by lending, transferring, buying or selling, or any other method. The Company shall not be liable for any damage or disadvantage caused by insufficient management of ID or password.",
+                            "If the ID or password is lost or forgotten, or if it is found that they are being used by a third party, the user shall immediately notify the Company.",
+                            "The Company shall consider all use of this service by the ID and password issued to the user to be the act of the user himself / herself regardless of whether or not it is genuinely used by the user, and the user shall be the result of the act. You shall bear all responsibility that arises."
+                        ]
+                    ],
+                    [
+                        "4 Purchase or use of products, etc.",
+                        [
+                            "When a user intends to purchase or use products, digital contents or services (hereinafter referred to as \"products, etc.\") provided by this service, he / she purchases or uses the products, etc. in accordance with the method specified by the Company. You shall apply.",
+                            "When applying in the preceding paragraph, after confirming the items entered by the user and the application details, click the button to confirm the application, and when the company receives the application, the product etc. will be purchased or used with the company. Such a contract shall be concluded.",
+                            "Notwithstanding the provisions of this Article, if there is a breach of this Agreement regarding the use of this service, the Company may cancel the sales contract, claim damages, or take other measures that the Company deems appropriate. The Company shall not be liable for any damages or disadvantages suffered by the user due to such measures, except in the case of intentional or gross negligence of the Company."
+                        ]
+                    ],
+                    [
+                        "5 Payment method",
+                        [
+                            "The user shall pay the price of the products, etc. displayed in the purchase procedure of the products, etc. in the preceding article.",
+                            "The payment method for the products, etc. shall be the method provided in the purchase procedure or the payment method separately approved by the Company.",
+                            "In the case of payment by credit card, the user shall comply with the terms and conditions separately contracted by the user with the credit card company. If any dispute arises between the user and the credit card company in connection with the use of the credit card, the user shall resolve the dispute at his / her own risk and expense."
+                        ]
+                    ],
+                    [
+                        "6 Returns and exchanges of products, etc.",
+                        [
+                            [
+                                "Regarding this service, we do not accept returns or exchanges of products, etc. except in the following cases.",
+                                "When due to defects or defects in the product, etc.\nIn this case, within 8 days after the arrival of the goods, etc., we will notify us by the method specified by us.",
+                                "Other cases that Itamaster decides independently\nIn this case, we will use the method provided on our website."
+                            ],
+                            "We do not accept returns or exchanges of products, etc, as purchases by minor users are considered to have been purchased with the consent of a legal representative such as a parent or guardian."    
+                        ]
+                    ],
+                    [
+                        "7 Disclaimer regarding products, etc.",
+                        [
+                            "Our liability for quality, function, performance, compatibility with other goods and other defects of products sold through this service is limited to those specified in the preceding article, except in the case of intentional or gross negligence of Itamaster. will do.",
+                            "We have the legality, usefulness, completeness, accuracy, and latest information regarding the photos and comments posted on the website of this service and the products posted by users, as well as the comments posted on Twitter, Instagram, and other SNS services. We do not guarantee the sex, reliability, or suitability for a specific purpose."
+                        ]
+                    ],
+                    [
+                        "8 Subscription",
+                        [
+                            "Subscription plans are billed monthly. You will continue to be billed prior to each subscription period.",
+                            "At the end of each subscription period, your subscription will automatically renew under the same terms unless you or we cancel your subscription.",
+                            "If the subscription request is not paid for any reason, we may immediately stop providing the Services to that user.",
+                            "We are free to modify subscriptions and other charges at any time. The subscription price adjustment will be applied at the time of the next subscription renewal.",
+                            "We will send you advance notice to give you the opportunity to decide to continue your subscription before changing the subscription price.",
+                            "If you continue to use this service after changing the subscription fee, you are deemed to have agreed to the change in the subscription fee.",
+                            "Except as required by law, paid subscription fees will not be refunded."
+                        ]
+                    ],
+                    [
+                        "9 Free trial",
+                        [
+                            "We may, at our discretion, offer free trials for subscriptions for a limited time.",
+                            "If the user does not cancel the subscription by the end of the free trial period, the subscription fee will be automatically charged.",
+                            "We may change the terms and conditions of the Free Trial and discontinue its offer at any time."
+                        ]
+                    ],
+                    [
+                        "10 Intellectual property rights and content",
+                        "Intellectual property rights, including copyrights, and all other rights relating to all materials that make up this service belong to the Company or a third party who has such rights. The user shall not acquire any rights regarding all the materials of this service, and shall not take any action that infringes the rights related to the materials without the permission of the right holder. The license to use this service based on this agreement does not mean the license of the rights of Itamaster or a third party who has such rights regarding this service."
+                    ],
+                    [
+                        "11 Posted by user",
+                        [
+                            "Information such as writings, reviews, comments, etc. by users in this service and images, illustrations and other contents (hereinafter referred to as \"user posting information\") that users have posted, uploaded or made viewable are provided by this service. Please use this service after fully understanding that it will be accessed and viewed by an unspecified number of users. The user who did this shall bear all responsibility for the information posted by the user.",
+                            [
+                                "The user cannot post the following information.",
+                                "Things that are not true",
+                                "Those containing obscene expressions or obscene images such as nudity",
+                                "Anything that damages the honor or credibility of others",
+                                "Anything that infringes the privacy rights, portrait rights, copyrights or other rights of a third party",
+                                "Those containing computer viruses",
+                                "Links and URLs to websites other than those approved by us",
+                                "Other things that we deem inappropriate"
+                            ],
+                            [
+                                "The user authorizes the Company to use the information posted by the user free of charge. Upon permission, the user shall represent and warrant the following.",
+                                "Regarding copyrights, neighboring rights, portrait rights, and all other rights related to user-submitted information, all rights necessary for the use of user-posted information related to this service by a legitimate right holder or a legitimate right holder. Have received.",
+                                "The posting of user-submitted information and its use by the Company shall not infringe the copyrights, neighboring rights, portrait rights, or any other rights of third parties."
+                            ],
+                            "The Company shall be able to monitor the content of user-submitted information for the purpose of allowing users to use this service safely.",
+                            [
+                                "If the user posted information violates this agreement or falls under the following reasons, we may delete the user posted information and restrict the user's posting without prior notice to the user. I shall be able to do it.",
+                                "When a certain period of time has passed since posting",
+                                "When it is deemed necessary for the maintenance management of this service",
+                                "When the capacity of user-submitted information, etc. exceeds the prescribed capacity of the equipment used by Itamaster, or when there is a risk of it"
+                            ],
+                            "The Company is not obligated to reply to the user regarding the reason for the restriction of deletion and posting according to the preceding paragraph, and is not liable for any damage or disadvantage caused to the user due to the deletion or restriction. In addition, we are not obligated to delete the information posted by users.",
+                            "The user agrees in advance with respect to the monitoring, deletion and posting restrictions of the information posted by the user according to this article."
+                        ]
+                    ],
+                    [
+                        "12 Changes / additions / suspension of service contents",
+                        "The Company may change, add or suspend all or part of the contents of this service without notifying the user in advance, and the user shall consent to this in advance."
+                    ],
+                    [
+                        "13 Personal information",
+                        "We will handle personal information acquired by users using this service appropriately in accordance with our privacy policy."
+                    ],
+                    [
+                        "14 Prohibitions",
+                        [
+                            [
+                                "The user cannot perform the following acts.",
+                                "Acts that interfere with or may interfere with the operation of this service",
+                                "Acts that interfere with the use of this service by other users",
+                                "Acts that infringe copyright or other rights related to this service",
+                                "Acts that infringe the rights or interests of the Company, other users or third parties (including, but not limited to, honor rights, privacy rights and copyrights)",
+                                "Acts that violate public order and morals and other laws and regulations, and acts that may violate them",
+                                "Acts that violate this agreement",
+                                "In addition to the preceding items, acts that the Company deems inappropriate in view of the purpose of this service"
+                            ],
+                            "If we determine that the user has performed the acts specified in the preceding paragraph, we will suspend the use of all or part of this service without notifying the user in advance and take other measures that we deem necessary and appropriate. You can take it. The Company shall not be liable for any damage or disadvantage caused to the user by the measures in this section."
+                        ]
+                    ],
+                    [
+                        "15 Elimination of antisocial forces",
+                        "The user promises the following matters to the Company.",
+                        [
+                            "You are not a gangster, a company affiliated with a gangster, a general assembly shop, a person equivalent to these, or a member thereof (hereinafter collectively referred to as \"anti-social forces\").",
+                            "Your officers (employees, directors, executive officers or equivalents who execute business) are not antisocial forces.",
+                            "Do not allow antisocial forces to use their own name and conclude this contract.",
+                            [
+                                "Do not do the following acts by yourself or by using a third party.",
+                                "Acts that use threatening behavior or violence against the other party",
+                                "Unreasonable demands beyond legal responsibility",
+                                "Acts that interfere with the other party's business or damage the credibility by using counterfeiting or power"
+                            ]
+                        ]
+                    ],
+                    [
+                        "16 Disclaimer",
+                        [
+                            "If all or part of this service is suspended, interrupted, or delayed due to natural disasters, wars, acts of terrorism, riots, labor disputes, infectious diseases, enactment, revision or abolition of laws, government agency intervention or other force majeure, We are not responsible for any damage or disadvantage caused to the user.",
+                            "The user understands that the service may be stopped, interrupted, or delayed in whole or in part due to communication line or computer failure, system maintenance or other reasons, and the Company shall inform the user by these. We are not responsible for any damage or disadvantage caused. In addition, we are not responsible for any damage or disadvantage caused by the user's usage environment.",
+                            [
+                                "We make no warranty, express or implied, with respect to any of the following",
+                                "The usefulness, completeness, accuracy, up-to-dateness, reliability, and fitness for a particular purpose of the content of this service and the information provided through this service.",
+                                "The information provided by this service does not infringe the rights of third parties.",
+                                "This service will continue to exist in the future."
+                            ],
+                            "The Company shall not be liable for compensation in excess of 10,000 yen if it is liable to the user in connection with the use of this service by the user, and incidental damages, indirect damages, etc. We shall not be liable for any special damages, future damages or lost profits."
+                        ]
+                    ],
+                    [
+                        "17 Confidentiality",
+                        "When using this service, this user must not disclose or leak any information disclosed or obtained from our office to a third party, and use it for purposes other than the use of this service. Do not do."
+                    ],
+                    [
+                        "18 Notification from Itamaster",
+                        [
+                            "When we notify the user, we will send an e-mail to the e-mail address registered by the user, post it on the website related to this service, or other methods that we deem appropriate. will do.",
+                            "When we make a notification, if you send it to the e-mail address in the preceding paragraph, our notification will be deemed to have reached the user when it is recorded on the mail server of that e-mail address.",
+                            "The user shall promptly notify the Company if there is a change in the e-mail address in paragraph 1. Notifications sent by us to the e-mail address before the change before receiving the notification of the change in this section shall be deemed to have reached the user at the time of the transmission.",
+                            "The Company shall not be liable for any damage or disadvantage caused to the user due to the user's failure to give the notice set forth in the preceding paragraph."
+                        ]
+                    ],
+                    [
+                        "19 Disputes with third parties",
+                        [
+                            "Any dispute that arises between the user and a third party in connection with this service shall be resolved by the user at his own expense and responsibility, and the Company shall not be liable at all.",
+                            "Regarding the preceding paragraph, if the Company suffers damages (including attorney's fees), the user shall compensate for the damages."
+                        ]
+                    ],
+                    [
+                        "20 Prohibition of transfer of rights and obligations",
+                        "The user may assign, transfer, set security interests, etc. to a third party without the prior written consent of the Company regarding the contractual status based on this agreement and all or part of the rights and obligations arising from it. I can't dispose of it."
+                    ],
+                    [
+                        "21 Separability",
+                        "If any provision of this agreement violates the laws and regulations applicable to the contract based on this agreement with the user and is invalidated, the provision will be a contract with the user to the extent that it is a violation. It shall not apply to. This does not affect the validity of the other provisions of this Agreement."
+                    ],
+                    [
+                        "22 Changes to this agreement",
+                        "If it becomes necessary to change this agreement, we can change this agreement based on Article 548-4 of the Civil Code (change of standard contracts). When changing this agreement, the Company shall set the effective date and notify the following matters by sending an e-mail or other methods by the effective date.",
+                        [
+                            "To change this agreement",
+                            "Contents of this agreement after change",
+                            "Effective date"
+                        ]
+                    ],
+                    [
+                        "23 Governing law, jurisdiction",
+                        [
+                            "This agreement will be construed in accordance with Japanese law.",
+                            "The Company and the user agree in advance that the Hiroshima District in Japan Court shall be the exclusive agreement jurisdiction court of the first instance for the resolution of disputes arising between the Company and the user regarding this service."
+                        ]    
+                    ]
+                ]
+            },
+            "notation_based_specified_commodity_transaction_law":{
+                "title":"Notation based on the Specified Commodity Transaction Law",
+                "contents":[
+                    [
+                        "1　E-mail address",
+                        "itamaster.official@gmail.com"  
+                    ],
+                    [
+                        "2 Product selling price / service consideration",
+                        "Price displayed on the purchase page of each product / service"
+                    ],
+                    [
+                        "3 Expenses required in addition to consideration",
+                        [
+                            "Expenses such as communication lines for internet connection"
+                        ]
+                    ],
+                    [
+                        "4 Payment method",
+                        [
+                            "credit card"
+                        ]
+                    ],
+                    [
+                        "5 Payment time",
+                        [
+                            "Payment will be confirmed at the time of ordering."
+                        ],
+                        "For subscriptions, payment will be made monthly or yearly from the date of initial payment."
+                    ],
+                    [
+                        "6 Timing of product delivery or service provision",
+                        "About services and services",
+                        "You can use it immediately after completing the prescribed procedures."
+                    ],
+                    [
+                        "7 Special contract regarding returns and cancellations",
+                        "We will not accept returns or cancellations after the purchase procedure is completed for the products and services sold by this service, unless otherwise specified by the Company. If a product or service is defective or defective, we will respond in accordance with the terms of use.",
+                        "For products or services that have special sales conditions or provision conditions, the conditions will be displayed on the purchase page of each product or service."
+                    ]
+                ]
+            }
+        },
+        "project":{
+            "project":{
+                "project_cannot_found":"The project cannot be found.",
+                "please_project_select":"Use the select box to select a project.",
+                "display_project_and_testsuite_list":"You can view project information and browse the list of test suites."
+            },
+            "card":{
+                "project_card":{
+                    "project_is_not_valid":"This project is not valid.",
+                    "you_can_enabled_to_modal":"You can enable the project by enabling it using the edit dialog."
+                }
+            },
+            "modal":{
+                "project_edit_modal":{
+                    "modal_name":"Project Register Dialog"
+                },
+                "test_result_export_modal":{
+                    "modal_overview":"Template selection & Excel output",
+                    "select_template":"Output Template Selection",
+                    "test_run_result_file":"Test Run Result Excel",
+                    "summary_file":"Summary Report",
+                    "please_select_template":"Please select an output template.",
+                    "displayed_export_form":"The output screen is displayed."
+                }
+            },
+            "panel":{
+                "test_run_result_excel_export_panel":{
+                    "output_example":"Output Example",
+                    "excel_output_image":"Image at the time of Excel output",
+                    "excel_output_explanation":"Detailed test information and all execution logs are output in Excel.",
+                    "excel_output_can_of_not_completed_warning":"Tests that have not been completed will be warned with a red background.",
+                    "excel_output_can_information_input":"When outputting to Excel, you can enter the team name, system name, period, etc.",
+                    "enter_information":"Enter Information",
+                    "please_enter_information_for_output_template":"Select and enter the information to include when outputting the test result table.",
+                    "output_check":"Output Check",
+                    "file_name_in_advance":"You can specify the file name.",
+                    "input_information_check":"Are you sure you want to output according to this information?"
+                },
+                "summary_report_excel_export_panel":{
+                    "output_example":"Output Example",
+                    "data_table_image":"Data list page output image",
+                    "excel_output_explanation":"Data is collected and analyzed, and completion rate, test density, detection defect density, estimated number of remaining defects, and defect occurrence rate are output.",
+                    "completation_calculation_method":"The completion rate outputs a list of the ratio of the number of completed cases (the number of cases whose status is complete) to the number of tests for each test suite and the total.",
+                    "test_density_calculation_method":"The test density is the ratio of the number of tests to the number of steps.",
+                    "defect_density_calculation_method":"For the detection defect density, the ratio of the number of detection defects (the number of issues in the status) to the number of steps is output.",
+                    "defect_rate_calculation_method":"For the defect occurrence rate, the ratio of the defect occurrence rate to the number of tests is output.",
+                    "guessing_residual_defect_calculation_method":"The estimated number of remaining defects is calculated based on the overall completion rate and the number of detected defects.",
+                    "graph_image":"Image of graph output",
+                    "graph_export_explanation":"The test density, detection defect density, and defect occurrence rate are output as graphs on a separate sheet.",
+                    "graph_is_not_export_if_test_not_found":"If no test is created, no graph sheet will be generated.",
+                    "enter_information":"Enter Information",
+                    "please_enter_information_for_output_template":"Select and enter the information to include when outputting the summary report.",
+                    "output_check":"Output Check",
+                    "file_name_in_advance":"You can specify the file name.",
+                    "input_information_check":"Are you sure you want to output according to this information?"
+                }
+            }
+        },
+        "team":{
+            "card":{
+                "members_card":{
+                    "yet_joined_user":"The user has not yet joined the team.",
+                    "joined_user":"A member who has already joined the team."
+                },
+                "team_card":{}
+            },
+            "modal":{
+                "member_edit_modal":{
+                    "modal_name":"Member invitation dialog",
+                    "seacret_words_has_not_been_entered":"The same as the initial seacretWords has not been entered."
+                },
+                "team_edit_modal":{
+                    "modal_name":"My Team Register Dialog",
+                    "please_id_check":"Check if this id can be used",
+                    "team_id_remarks":"This is a code to find a team, a special code that can only be assigned to one team.",
+                    "id_please_change":"This id cannot be used. Please change.",
+                    "team_name":"Team Name",
+                    "private_conf":"Would you like to set this team to private?",
+                    "private_remarks":"When set to private, the test content can only be viewed by members who are participating in the team.",
+                    "public_conf":"Would you like to set this team to public?",
+                    "public_remarks":"If set to private, test content can be viewed by anyone.",
+                    "register_since_being_done_config_change":"The settings are not guaranteed until you register."
+                },
+                "unpaid_team_info_modal":{
+                    "admin_isnot_paid":"The administrator does not have the right to run the team.",
+                    "team_is_frozen":"The functionality of this team is currently frozen."
+                }
+            }
+        },
+        "testcase":{
+            "running_testcase_list":{
+                "please_enter_test_result":"Please enter the test result"
+            },
+            "testcase_table":{
+                "table_name":"Test Case List"
+            },
+            "grouping":{
+                "running_btns":{
+                    "unlock_conf":"If you unlock and continue testing, there is the potential for conflicts to be edited, deleted, or run by other workers. Are you sure you want to unlock it?",
+                    "lock_conf":"Once the lock is acquired, no other worker can edit, delete, or test the case. Are you sure you want to get the lock?",
+                    "lock_released_time":"※　The lock is released every day at 24:00."
+                }
+            },
+            "modal":{}
+        },
+        "testsuite":{
+            "go_testcase_select_modal":{
+                "show_testcase":"Show test case",
+                "run":"Run the test cases",
+                "manage":"Manage test cases"
+            },
+            "testsuite_actions":{},
+            "testsuite_edit_modal":{},
+            "testsuite_info_modal":{},
+            "testsuite_table":{
+                "table_name":"Test Suite List"
+            }
+        },
+        "user":{
+            "card":{
+                "profile_register_card":{
+                    "icon_edit":"Icon Edit?"
+                }
+            },
+            "modal":{
+                "icon_register_modal":{
+                    "modal_name":"Icon Edit Modal",
+                    "initial":"Initials",
+                    "preview":"preview",
+                    "icon_color":"icons color",
+                    "icon_text":"icons text",
+                    "images_icon":"IMAGES ICON",
+                    "simple_icon":"SIMPLE ICON",
+                    "images_delete":"IMAGES DELETE",
+                    "icon_type":"Icon's Type?",
+                    "images_delete_message":"I deleted the set image and set the default sample image."
+                },
+                "icon_upload":{
+                    "images_upload":"IMAGES UPLOAD",
+                    "crop":"CROP"
+                }
+            },
+            "sign_up":{
+                "agree_term_and_conditions":"I agree to those terms."
+            }
+        },
+        "demo":{
+            "user_select_card":{
+                "start":"Start the demo with this user"
+            },
+            "precautionary_statement_card":{
+                "overview":"About Demo mode",
+                "cautions":[
+                    "Some functions have been excluded for performance reasons. Please understand that Demo is just for understanding the operation feeling and flow.",
+                    "The information entered during the demo and the updated contents will not be continued, and all will be initialized when the browser is closed.",
+                    "If you reload the browser, the screen may not be displayed properly. Please select the account you want to use again.",
+                    "In Demo, you can output the form in the same way as the official service version, but all the output information is the demo data prepared by the system.",
+                    "Demo does not allow you to participate in official service teams or projects.",
+                    "Only the invitation function to the team can process the data, but it does not communicate with the server. Please note that the invitation is not actually being made."
+                ]
+            }
+        },
+        "top":{
+            "excel_problem_window":{
+                "impossible_simultaneous_operation":"Excel cannot be operated at the same time.",
+                "run_time":"Waiting time may occur.",
+                "heavy_movement":"Excel works slowly depending on the specifications of the PC.",
+                "adverse_effects_for_performance":"It may adversely affect the performance of workers.",
+                "data_corruption":"Despair when hours of work data is corrupted is...",
+                "will_not_forget":"I'm sure I'll never forget it."
+            },
+            "simple_design":{
+                "can_intuition":"Sensory operation is possible.",
+                "many":"Easy to use for everyone,",
+                "simple":"Simple design."
+            },
+            "itamaster_is_solve_problem":{
+                "itamaster_is":"Itamaster is",
+                "solve":"It solves the problem of test management in Excel."
+            },
+            "typing_animation_card":{
+                "example_github":"There are platforms such as GitHub that develop with engineers from all over the world.",
+                "test_is":"Platforms for testing with engineers around the world is,",
+                "why_not":"Why not?",
+                "itamaster_is":"No,There is Itamaster."
+            }
+        }
+    },
+    "template":{
+        "team_manage_page":{
+            "page_explanation":"This is a screen for checking, adding, and excluding members belonging to the team.",
+            "remarks":"Users who are invited to a team by email address will be added to the team's member list when they join the team."
+        },
+        "contact_form_page":{},
+        "privacy_policy_page":{},
+        "environment_steps_page":{
+            "page_name":"Project test environment construction procedure",
+            "sorry":"I'm sorry... :_(",
+            "yet_implemented":"This is the screen where the implementation is not completed.",
+            "remarks":"Originally, on this screen, the user can freely create the environment construction procedure manual of the project using Markdown notation.",
+            "hurry_implemented":" We sincerely apologize for the inconvenience, but we hope you enjoy the implementation."
+        },
+        "project_page":{
+            "page_name_before_team_name":"The project that the",
+            "page_name_after_team_name":"is in charge of.",
+            "please_project":"Please select a project..."
+        },
+        "team_card_list_page":{
+            "belong_to_team":"This is the team you belong to.",
+            "project_page_click_to_start_testing":"Click Project Page to start testing."
+        },
+        "test_manage_page":{
+            "page_explanation":"Page for managing tests",
+            "writer_explanation":"If you are a user with writer privileges, you can edit the information in addition to viewing it.",
+            "remarks":"You can also sort and create new tests."
+        },
+        "test_run_page":{
+            "page_explanation":"Screen to run the test",
+            "test_run_process":"Build your environment according to the 'prerequisites' and run the tests according to the 'processes'.",
+            "future_expect":"And it will only calculate if the 'expect' are met.",
+            "testcase_is_cannot_found":"The test case you have specified in tester doesn't seem to be in this test suite.",
+            "please_data_reload":"Try reloading the data."
+        },
+        "sign_in_page":{},
+        "sign_up_page":{},
+        "user_card_page":{},
+        "user_register_page":{},
+        "top_page":{
+            "free_demo_start":"Try demo mode for free",
+            "penetrate_text":"Ending the era of managing tests in Excel",
+            "all_log_baffa":"Itamaster stores all execution logs in the DB.",
+            "excel_export":"A summary report with a graph and a list of execution results are automatically generated.",
+            "is_excel_file":"It can be downloaded as an Excel file.",
+            "recommended_environment":"Recommended environment",
+            "demo_start":"Start the demo",
+            "guide_read":"Read the Japanese version of the operation guide",
+            "would_you_like_together":"Would you like to experience Itamaster together?"
+        }
+    },
+    "pages":{}
+}

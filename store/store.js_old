@@ -1,0 +1,124 @@
+// import Vue from 'vue'
+// import Vuex from 'vuex'
+// import apiModule from '@/store/modules/apiModule.js'
+// import errorModule from '@/store/modules/errorModule.js'
+// import userModule from '@/store/modules/userModule.js'
+
+// Vue.use(Vuex)
+
+// export default new Vuex.Store({
+//   modules: { apiModule, errorModule, userModule },
+//   actions:{
+//     signin(){
+//       console.log("a")
+//     }
+//   }
+// })
+
+    //   /** ex
+    //    * @name login
+    //    * @param {*} loginData = { email(str),password(str) } 
+    //    * @request userData (userDataObject)
+    //    * @request teams (Array) 
+    //    */
+    // async login({comit},loginData){
+    //     // apiをtrueにする
+    //     //
+    //     await common.login(loginData)
+    //     .then((res)=>{
+    //         const resolved = res.data;
+    //         // stateのteamsにres.data.teamsを格納する
+    //         //
+
+    //         // stateのapiをfalseにする
+    //         //
+    //     })
+    //     .catch((e)=>{
+    //         // stateのerrorMessagesにメッセージを格納する
+
+    //     })
+    // },
+
+    //　以下二つは、apiを介さないstateの変更であるためmutationsで行う
+    // // teamEditDialogがcloseされたとき、teamIdCheckDataをid:0,teamId:"NotChecked"に初期化しなければいけない
+    // teamDialogClose(){},
+    // // teamIdのidChangeをキャッチして、teamIdCheckDataをid:（チームのid）,teamId:"NotChecked"に変更しなければいけない
+    // teamIdChanged(){},
+
+//     // signup用のaction
+//     signup({comit}){},
+
+//     // signin用のaction
+//     signin({comit}){},
+
+//     // signout用のaction
+//     signout({comit}){},
+
+//     // teamのidが使用可能であるかをチェックするAPI用のaction
+//     teamCheckId({comit}){},
+
+//     // teamを作成するためのaction
+//     teamCreate({comit}){},
+
+//     // teamを更新するためのaction
+//     teamEdit({comit}){},
+
+//     // teamを削除するためのaction
+//     teamDelete({comit}){},
+
+//     // teamにuserを勧誘するためのaction
+//     teamInvitation({comit}){},
+
+//     // teamに加入するためのaction
+//     teamJoin({comit}){},
+
+//     // teamのmemberを除名するためのaction
+//     teamMemberKickout({comit}){},
+
+//     // teamへの招待をキャンセルするためのaction
+//     invitationCancel({comit}){},
+
+//     // projectを作成するためのaction
+//     projectCreate({comit}){},
+
+//     // projectを更新するためのaction
+//     projectEdit({comit}){},
+
+//     // projectを削除するためのaction
+//     projectDelete({comit}){},
+
+//     // testsuiteを作成するためのaction
+//     testsuiteCreate({comit}){},
+
+//     // testsuiteを更新するためのaction
+//     testsuiteEdit({comit}){},
+
+//     // testsuiteを削除するためのaction
+//     testsuiteDelete({comit}){},
+
+//     // testcaseを作成するためのaction
+//     testcaseCreate({comit}){},
+
+//     // testcaseを更新するためのaction
+//     testcaseEdit({comit}){},
+
+//     // testcaseを削除するためのaction
+//     testcaseDelete({comit}){},
+
+//     // userのprofile更新のためのaction
+//     userEdit({comit}){},
+
+//     // userを削除するためのaction
+//     userDelete({comit}){},
+
+//     // testを完了するためのaction
+//     testComplated({comit}){},
+
+//     testLock({comit}){},
+//     testUnlock({comit}){},
+
+//   },
+// })
+
+// ストアをエクスポート
+// export default store

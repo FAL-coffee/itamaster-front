@@ -1,0 +1,125 @@
+import testSuiteTable from "@organisms/TestSuite/TestSuiteTable.vue";
+import vuetify from "@v-plugin/vuetify.js";
+export default {
+  title: "Organisms/TestSuite/TestSuiteTable",
+  components: { testSuiteTable },
+  argTypes: {
+    save: { action: "save" },
+    destroy: { action: "destroy" },
+    profile: { action: "profile" },
+    testSuiteOpen: { action: "testSuiteOpen" },
+  },
+};
+
+const Template = (args, { argTypes }) => ({
+  props: Object.keys(argTypes),
+  vuetify,
+  components: { testSuiteTable },
+  template:
+    '<testSuiteTable v-bind="$props" @save="save" @destroy="destroy" @profile="profile" @testSuiteOpen="testSuiteOpen"/>',
+});
+export const TestSuiteTable = Template.bind({});
+TestSuiteTable.args = {
+  user: {
+    id: 1,
+    name: "loginUser",
+    guestFlag: false,
+  },
+  testSuits: [
+    {
+      id: 1,
+      no: 1,
+      creatorId: 1,
+      title: "test suite title",
+      remarks: "test suite remarks",
+      writers: [1, 2],
+      steps: 50,
+      testcase: 19,
+      complete: 5,
+      retest: 1,
+      issue: 2,
+    },
+    {
+      id: 2,
+      no: 2,
+      creatorId: 1,
+      title: "test suite title02",
+      remarks: "test suite remarks02",
+      writers: [1, 2, 4],
+      steps: 50,
+      testcase: 59,
+      complete: 23,
+      retest: 25,
+      issue: 4,
+    },
+    {
+      id: 3,
+      no: 3,
+      creatorId: 5,
+      title: "test suite title03",
+      remarks: "test suite remarks03",
+      writers: [5],
+      steps: 50,
+      testcase: 105,
+      complete: 0,
+      retest: 80,
+      issue: 16,
+    },
+  ],
+  persons: [
+    {
+      id: 1,
+      initials: "UR",
+      name: "user",
+      email: "user@Itamaster.co.jp",
+      color: "blue",
+      simpleIcon: false,
+      iconImg: { url: "" },
+    },
+    {
+      id: 2,
+      initials: "TE",
+      name: "tester",
+      email: "tester@Itamaster.co.jp",
+      color: "red",
+      simpleIcon: true,
+      iconImg: { url: "" },
+    },
+    {
+      id: 3,
+      initials: "PG",
+      name: "programer",
+      email: "programer@Itamaster.co.jp",
+      color: "red",
+      simpleIcon: true,
+      iconImg: { url: "" },
+    },
+    {
+      id: 4,
+      initials: "PM",
+      name: "manager",
+      email: "manager@Itamaster.co.jp",
+      color: "red",
+      simpleIcon: false,
+      iconImg: { url: "" },
+    },
+    {
+      id: 5,
+      initials: "純",
+      name: "純一",
+      email: "junniti@Itamaster.co.jp",
+      color: "red",
+      simpleIcon: true,
+      iconImg: { url: "" },
+    },
+    {
+      id: 6,
+      initials: "FW",
+      name: "forward",
+      email: "forward@Itamaster.co.jp",
+      color: "blue",
+      simpleIcon: true,
+      iconImg: { url: "" },
+    },
+  ],
+};
